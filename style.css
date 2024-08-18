@@ -1,0 +1,110 @@
+/* ## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+*/
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: hsl(0, 0%, 98%);
+	color: hsl(229, 6%, 66%);
+}
+
+.container {
+	padding: 20px;
+}
+
+section {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 550px;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+h2 {
+	color: hsl(234, 12%, 34%);
+}
+
+.sub-title {
+	font-size: 2rem;
+	font-weight: 800;
+	color: hsl(234, 12%, 34%);
+}
+
+.card {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	overflow: auto;
+}
+
+.card-1 {
+	border-top: 2px solid hsl(180, 62%, 55%);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-2 {
+	border-top: 2px solid hsl(0, 78%, 62%);
+}
+
+.card-3 {
+	border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+.card-4 {
+	border-top: 2px solid hsl(212, 86%, 64%);
+}
+
+.card img {
+	float: right;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
