@@ -47,7 +47,12 @@ body {
 	color: hsl(229, 6%, 66%);
 }
 
-.container {
+h1 {
+	font-size: 2rem;
+}
+
+main {
+	margin-top: 40px;
 	padding: 20px;
 }
 
@@ -73,27 +78,29 @@ h2 {
 
 .card {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 5px;
 	max-width: 400px;
 	margin: 20px auto;
 	padding: 20px;
 	overflow: auto;
+	max-height: 200px;
 }
 
 .card-1 {
-	border-top: 2px solid hsl(180, 62%, 55%);
+	border-top: 4px solid hsl(180, 62%, 55%);
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .card-2 {
-	border-top: 2px solid hsl(0, 78%, 62%);
+	border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 .card-3 {
-	border-top: 2px solid hsl(34, 97%, 64%);
+	border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 .card-4 {
-	border-top: 2px solid hsl(212, 86%, 64%);
+	border-top: 4px solid hsl(212, 86%, 64%);
 }
 
 .card img {
@@ -107,4 +114,20 @@ h2 {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+	.card-1, .card-4 {
+		align-self: center;
+	}
+    .card-container {
+		display: flex;
+    }
+	.middle-cards-container {
+		display: flex;
+		flex-direction: column;
+	}
+
 }
